@@ -6,7 +6,26 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #f9f9f9;
-  color: #222;
+  background-color: #f8f8f8;
+  color: #111;
   line-height: 1.6;
 }
+
+header {
+    background-color: rgb(26, 26, 46);
+    padding: 16px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
