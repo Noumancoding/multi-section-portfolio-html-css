@@ -93,3 +93,59 @@ main {
   max-width: 700px;
   margin: 0 auto;
 }
+
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 60px 20px;
+}
+
+.projects {
+  text-align: center;
+  padding: 60px 20px;
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: rgb(44, 62, 100);
+}
+
+.project-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  width: 320px;
+  padding: 20px;
+  text-align: left;
+  transition: transform 0.3s ease;
+}
+
+.project-card h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #2c3e50;
+}
+
+.project-card p {
+  font-size: 15px;
+  margin-bottom: 15px;
+  color: #555;
+}
+
+.project-btn {
+  display: inline-block;
+  padding: 10px 18px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+.project-btn:hover {
+  background-color: #0056b3;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
