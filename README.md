@@ -26,7 +26,7 @@ Each part is fully coded by hand as part of my frontend development learning jou
 |--------|-------------|------|
 | Landing Page | A simple layout with HTML + CSS | [Live Demo](https://landing-page-noumancoding.vercel.app) |
 | Card UI Layout | Responsive cards using Flexbox | [Live Demo](https://card-ui-html-css.vercel.app) |
-| This Portfolio | Multi-section layout practice | [Coming Soon] |
+| This Portfolio | Multi-section layout practice | [Live Demo](https://multi-section-portfolio-html-css.vercel.app/) |
 
 ---
 
